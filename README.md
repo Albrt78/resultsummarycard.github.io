@@ -17,8 +17,8 @@ This challenge is designed based on the provided template from Frontend Mentor w
 
 ### Links
 
--   Solution URL: [https://github.com/Albrt78/frontend_mentor_project/tree/main/result%20summary]
--   Live Site URL: [https://spectacular-genie-6aa3e7.netlify.app/]
+-   Solution URL: [Result Summary Card](https://github.com/Albrt78/resultsummarycard.github.io/tree/main)
+-   Live Site URL: [Result Summary Card](https://spectacular-genie-6aa3e7.netlify.app/)
 
 ### Built with
 
