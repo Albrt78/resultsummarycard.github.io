@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Frontend Mentor | Result Summary</title>
+        <link rel="stylesheet" href="assets/images/favicon-32x32.png" />
+
+        <!-- Font Style -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- My Style -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main class="wrapper">
+            <section class="container">
+                <h1 id="title1">Your Result</h1>
+
+                <section class="circle">
+                    <h2 id="big-num">76</h2>
+                    <h3 id="num-child">of 100</h3>
+                </section>
+
+                <h4 id="title2">Great</h4>
+                <p id="description">
+                    Your score higher than 65% of the people who taken these
+                    tests.
+                </p>
+            </section>
+
+            <section class="summary">
+                <h5>Summary</h5>
+                <article class="box red">
+                    <section class="group">
+                        <img
+                            src="assets/images/icon-reaction.svg"
+                            alt="Reaction Icon"
+                        />
+                        <h6 class="text red">Reaction</h6>
+                    </section>
+                    <h6 class="num">80 <span class="child">/ 100</span></h6>
+                </article>
+
+                <article class="box orange">
+                    <section class="group">
+                        <img
+                            src="assets/images/icon-memory.svg"
+                            alt="Memory Icon"
+                        />
+                        <h6 class="text orange">Memory</h6>
+                    </section>
+                    <h6 class="num">92 <span class="child">/ 100</span></h6>
+                </article>
+
+                <article class="box green">
+                    <section class="group">
+                        <img
+                            src="assets/images/icon-verbal.svg"
+                            alt="Verbal Icon"
+                        />
+                        <h6 class="text green">Verbal</h6>
+                    </section>
+                    <h6 class="num">61 <span class="child">/ 100</span></h6>
+                </article>
+
+                <article class="box violet">
+                    <section class="group">
+                        <img
+                            src="assets/images/icon-visual.svg"
+                            alt="Visual Icon"
+                        />
+                        <h6 class="text violet">Visual</h6>
+                    </section>
+                    <h6 class="num">72 <span class="child">/ 100</span></h6>
+                </article>
+
+                <button>Continue</button>
+            </section>
+        </main>
+    </body>
+</html>
