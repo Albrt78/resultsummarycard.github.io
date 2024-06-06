@@ -245,7 +245,7 @@ body {
     }
 }
 
-@media (max-width: 655.98px) {
+@media (max-width: 730.98px) {
     .wrapper {
         flex-direction: column;
         box-shadow: none;
@@ -265,12 +265,8 @@ body {
     }
 
     .wrapper > .summary .box {
-        margin-bottom: 15px;
+        margin-bottom: 2rem;
         width: 100%;
-    }
-
-    .wrapper > .summary button {
-        margin-bottom: 30px;
     }
 }
 
