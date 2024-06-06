@@ -245,7 +245,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 655.98px) {
     .wrapper {
         flex-direction: column;
         box-shadow: none;
